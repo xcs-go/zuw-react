@@ -1,0 +1,22 @@
+#footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.3rem;
+  color:#ffffff;
+  background-color: #ad1b1b;
+}
+#footer ul {
+  height: 1rem; }
+#footer li {
+  float: left;
+  width: 20%; }
+#footer a {
+  color: #fff; }
+#footer .active a {
+  color:red
+}

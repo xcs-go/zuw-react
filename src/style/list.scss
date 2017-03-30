@@ -1,0 +1,41 @@
+.list{
+  width:100%;
+  overflow: hidden;
+  border:1px solid #000;
+  li {
+    width: 3.5rem;
+    height: 4.6rem;
+    float: left;
+    margin:0.6rem 0.1rem 0.1rem 0.1rem;
+    img{
+      width:3.5rem;
+      height:3rem;
+    }
+    p.good-title{
+      text-align: center;
+      font-size:0.3rem;
+      margin-top: 0.3rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-overflow: -o-ellipsis-lastline;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+    p:last-child{
+      padding: 0  0.3rem;
+      margin-top: 0.4rem;
+      font-size:0.35rem;
+      .good-price{
+        float: left;
+        color:#ff0000;
+      }
+      .undiscount-price{
+        float: right;
+        color:#999;
+        text-decoration: line-through;
+      }
+    }
+
+  }
+}
